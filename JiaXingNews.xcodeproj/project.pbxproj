@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4351EE4E1D01A64400AFA99F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4351EE4D1D01A64400AFA99F /* main.m */; };
+		4351EE511D01A64400AFA99F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4351EE501D01A64400AFA99F /* AppDelegate.m */; };
+		4351EE541D01A64400AFA99F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4351EE531D01A64400AFA99F /* ViewController.m */; };
+		4351EE571D01A64400AFA99F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4351EE551D01A64400AFA99F /* Main.storyboard */; };
+		4351EE5A1D01A64400AFA99F /* JiaXingNews.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4351EE581D01A64400AFA99F /* JiaXingNews.xcdatamodeld */; };
+		4351EE5C1D01A64400AFA99F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4351EE5B1D01A64400AFA99F /* Assets.xcassets */; };
+		4351EE5F1D01A64400AFA99F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4351EE5D1D01A64400AFA99F /* LaunchScreen.storyboard */; };
+		4351EE6A1D01A64400AFA99F /* JiaXingNewsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4351EE691D01A64400AFA99F /* JiaXingNewsTests.m */; };
+		4351EE751D01A64400AFA99F /* JiaXingNewsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4351EE741D01A64400AFA99F /* JiaXingNewsUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4351EE661D01A64400AFA99F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4351EE411D01A64300AFA99F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4351EE481D01A64400AFA99F;
+			remoteInfo = JiaXingNews;
+		};
+		4351EE711D01A64400AFA99F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4351EE411D01A64300AFA99F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4351EE481D01A64400AFA99F;
+			remoteInfo = JiaXingNews;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4351EE491D01A64400AFA99F /* JiaXingNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JiaXingNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4351EE4D1D01A64400AFA99F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4351EE4F1D01A64400AFA99F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4351EE501D01A64400AFA99F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4351EE521D01A64400AFA99F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4351EE531D01A64400AFA99F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4351EE561D01A64400AFA99F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4351EE591D01A64400AFA99F /* JiaXingNews.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JiaXingNews.xcdatamodel; sourceTree = "<group>"; };
+		4351EE5B1D01A64400AFA99F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4351EE5E1D01A64400AFA99F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4351EE601D01A64400AFA99F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4351EE651D01A64400AFA99F /* JiaXingNewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JiaXingNewsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4351EE691D01A64400AFA99F /* JiaXingNewsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JiaXingNewsTests.m; sourceTree = "<group>"; };
+		4351EE6B1D01A64400AFA99F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4351EE701D01A64400AFA99F /* JiaXingNewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JiaXingNewsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4351EE741D01A64400AFA99F /* JiaXingNewsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JiaXingNewsUITests.m; sourceTree = "<group>"; };
+		4351EE761D01A64400AFA99F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4351EE461D01A64400AFA99F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4351EE621D01A64400AFA99F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4351EE6D1D01A64400AFA99F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4351EE401D01A64300AFA99F = {
+			isa = PBXGroup;
+			children = (
+				4351EE4B1D01A64400AFA99F /* JiaXingNews */,
+				4351EE681D01A64400AFA99F /* JiaXingNewsTests */,
+				4351EE731D01A64400AFA99F /* JiaXingNewsUITests */,
+				4351EE4A1D01A64400AFA99F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4351EE4A1D01A64400AFA99F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4351EE491D01A64400AFA99F /* JiaXingNews.app */,
+				4351EE651D01A64400AFA99F /* JiaXingNewsTests.xctest */,
+				4351EE701D01A64400AFA99F /* JiaXingNewsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4351EE4B1D01A64400AFA99F /* JiaXingNews */ = {
+			isa = PBXGroup;
+			children = (
+				4351EE4F1D01A64400AFA99F /* AppDelegate.h */,
+				4351EE501D01A64400AFA99F /* AppDelegate.m */,
+				4351EE521D01A64400AFA99F /* ViewController.h */,
+				4351EE531D01A64400AFA99F /* ViewController.m */,
+				4351EE551D01A64400AFA99F /* Main.storyboard */,
+				4351EE5B1D01A64400AFA99F /* Assets.xcassets */,
+				4351EE5D1D01A64400AFA99F /* LaunchScreen.storyboard */,
+				4351EE601D01A64400AFA99F /* Info.plist */,
+				4351EE581D01A64400AFA99F /* JiaXingNews.xcdatamodeld */,
+				4351EE4C1D01A64400AFA99F /* Supporting Files */,
+			);
+			path = JiaXingNews;
+			sourceTree = "<group>";
+		};
+		4351EE4C1D01A64400AFA99F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4351EE4D1D01A64400AFA99F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4351EE681D01A64400AFA99F /* JiaXingNewsTests */ = {
+			isa = PBXGroup;
+			children = (
+				4351EE691D01A64400AFA99F /* JiaXingNewsTests.m */,
+				4351EE6B1D01A64400AFA99F /* Info.plist */,
+			);
+			path = JiaXingNewsTests;
+			sourceTree = "<group>";
+		};
+		4351EE731D01A64400AFA99F /* JiaXingNewsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4351EE741D01A64400AFA99F /* JiaXingNewsUITests.m */,
+				4351EE761D01A64400AFA99F /* Info.plist */,
+			);
+			path = JiaXingNewsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4351EE481D01A64400AFA99F /* JiaXingNews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4351EE791D01A64400AFA99F /* Build configuration list for PBXNativeTarget "JiaXingNews" */;
+			buildPhases = (
+				4351EE451D01A64400AFA99F /* Sources */,
+				4351EE461D01A64400AFA99F /* Frameworks */,
+				4351EE471D01A64400AFA99F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JiaXingNews;
+			productName = JiaXingNews;
+			productReference = 4351EE491D01A64400AFA99F /* JiaXingNews.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4351EE641D01A64400AFA99F /* JiaXingNewsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4351EE7C1D01A64400AFA99F /* Build configuration list for PBXNativeTarget "JiaXingNewsTests" */;
+			buildPhases = (
+				4351EE611D01A64400AFA99F /* Sources */,
+				4351EE621D01A64400AFA99F /* Frameworks */,
+				4351EE631D01A64400AFA99F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4351EE671D01A64400AFA99F /* PBXTargetDependency */,
+			);
+			name = JiaXingNewsTests;
+			productName = JiaXingNewsTests;
+			productReference = 4351EE651D01A64400AFA99F /* JiaXingNewsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4351EE6F1D01A64400AFA99F /* JiaXingNewsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4351EE7F1D01A64400AFA99F /* Build configuration list for PBXNativeTarget "JiaXingNewsUITests" */;
+			buildPhases = (
+				4351EE6C1D01A64400AFA99F /* Sources */,
+				4351EE6D1D01A64400AFA99F /* Frameworks */,
+				4351EE6E1D01A64400AFA99F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4351EE721D01A64400AFA99F /* PBXTargetDependency */,
+			);
+			name = JiaXingNewsUITests;
+			productName = JiaXingNewsUITests;
+			productReference = 4351EE701D01A64400AFA99F /* JiaXingNewsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4351EE411D01A64300AFA99F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = DC20160426;
+				TargetAttributes = {
+					4351EE481D01A64400AFA99F = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					4351EE641D01A64400AFA99F = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 4351EE481D01A64400AFA99F;
+					};
+					4351EE6F1D01A64400AFA99F = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 4351EE481D01A64400AFA99F;
+					};
+				};
+			};
+			buildConfigurationList = 4351EE441D01A64300AFA99F /* Build configuration list for PBXProject "JiaXingNews" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4351EE401D01A64300AFA99F;
+			productRefGroup = 4351EE4A1D01A64400AFA99F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4351EE481D01A64400AFA99F /* JiaXingNews */,
+				4351EE641D01A64400AFA99F /* JiaXingNewsTests */,
+				4351EE6F1D01A64400AFA99F /* JiaXingNewsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4351EE471D01A64400AFA99F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4351EE5F1D01A64400AFA99F /* LaunchScreen.storyboard in Resources */,
+				4351EE5C1D01A64400AFA99F /* Assets.xcassets in Resources */,
+				4351EE571D01A64400AFA99F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4351EE631D01A64400AFA99F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4351EE6E1D01A64400AFA99F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4351EE451D01A64400AFA99F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4351EE541D01A64400AFA99F /* ViewController.m in Sources */,
+				4351EE511D01A64400AFA99F /* AppDelegate.m in Sources */,
+				4351EE4E1D01A64400AFA99F /* main.m in Sources */,
+				4351EE5A1D01A64400AFA99F /* JiaXingNews.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4351EE611D01A64400AFA99F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4351EE6A1D01A64400AFA99F /* JiaXingNewsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4351EE6C1D01A64400AFA99F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4351EE751D01A64400AFA99F /* JiaXingNewsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4351EE671D01A64400AFA99F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4351EE481D01A64400AFA99F /* JiaXingNews */;
+			targetProxy = 4351EE661D01A64400AFA99F /* PBXContainerItemProxy */;
+		};
+		4351EE721D01A64400AFA99F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4351EE481D01A64400AFA99F /* JiaXingNews */;
+			targetProxy = 4351EE711D01A64400AFA99F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4351EE551D01A64400AFA99F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4351EE561D01A64400AFA99F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4351EE5D1D01A64400AFA99F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4351EE5E1D01A64400AFA99F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4351EE771D01A64400AFA99F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4351EE781D01A64400AFA99F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4351EE7A1D01A64400AFA99F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JiaXingNews/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Green.JiaXingNews;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4351EE7B1D01A64400AFA99F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JiaXingNews/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Green.JiaXingNews;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4351EE7D1D01A64400AFA99F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JiaXingNewsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Green.JiaXingNewsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JiaXingNews.app/JiaXingNews";
+			};
+			name = Debug;
+		};
+		4351EE7E1D01A64400AFA99F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JiaXingNewsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Green.JiaXingNewsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JiaXingNews.app/JiaXingNews";
+			};
+			name = Release;
+		};
+		4351EE801D01A64400AFA99F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JiaXingNewsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Green.JiaXingNewsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JiaXingNews;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		4351EE811D01A64400AFA99F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JiaXingNewsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Green.JiaXingNewsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JiaXingNews;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4351EE441D01A64300AFA99F /* Build configuration list for PBXProject "JiaXingNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4351EE771D01A64400AFA99F /* Debug */,
+				4351EE781D01A64400AFA99F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4351EE791D01A64400AFA99F /* Build configuration list for PBXNativeTarget "JiaXingNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4351EE7A1D01A64400AFA99F /* Debug */,
+				4351EE7B1D01A64400AFA99F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4351EE7C1D01A64400AFA99F /* Build configuration list for PBXNativeTarget "JiaXingNewsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4351EE7D1D01A64400AFA99F /* Debug */,
+				4351EE7E1D01A64400AFA99F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4351EE7F1D01A64400AFA99F /* Build configuration list for PBXNativeTarget "JiaXingNewsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4351EE801D01A64400AFA99F /* Debug */,
+				4351EE811D01A64400AFA99F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4351EE581D01A64400AFA99F /* JiaXingNews.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4351EE591D01A64400AFA99F /* JiaXingNews.xcdatamodel */,
+			);
+			currentVersion = 4351EE591D01A64400AFA99F /* JiaXingNews.xcdatamodel */;
+			path = JiaXingNews.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4351EE411D01A64300AFA99F /* Project object */;
+}
