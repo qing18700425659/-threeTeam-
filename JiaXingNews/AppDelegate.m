@@ -6,17 +6,39 @@
 //  Copyright © 2016年 DC20160426. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "HUDViewController.h"
 
 @interface AppDelegate ()
-
+@property(nonatomic,strong)MBProgressHUD *hud;
 @end
 
 @implementation AppDelegate
 
+//------网络监测------
+- ( void )newWorkStart{
+    
+   
+    NSURL *url = [NSURL URLWithString: @"http://www.baidu.com"];
+    AFHTTPSessionManager *manager = [[AFHTTPSessionManager alloc]initWithBaseURL:url];
+    //网络状态判断
+    [manager.reachabilityManager setReachabilityStatusChangeBlock:^(AFNetworkReachabilityStatus status) {
+
+        if (status == AFNetworkReachabilityStatusReachableViaWiFi|| status == AFNetworkReachabilityStatusReachableViaWWAN){
+            NSLog(@"网络正常");
+        }else{
+            NSLog(@"网络异常");
+        }
+    }];
+    //开始检测
+    [manager.reachabilityManager startMonitoring];
+    
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [self newWorkStart];
+//     self.window.rootViewController = [[HUDViewController alloc]init];
+
     return YES;
 }
 

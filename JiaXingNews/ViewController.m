@@ -7,21 +7,37 @@
 //
 
 #import "ViewController.h"
+#import "OneViewController.h"
 
-@interface ViewController ()
 
+@interface ViewController ()<YSLContainerViewControllerDelegate>
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    NSArray *ary = @[@"文明播报",@"道德模范",@"文明创建",@"志愿服务",@"未成年人",@"区县传真",@"主题活动",@"我们的节目"];
+//    self.view.backgroundColor=[UIColor redColor];
+    NSMutableArray *array = [NSMutableArray array];
+    for (int i=0; i<ary.count; i++) {
+        OneViewController *oneVC = [[OneViewController alloc]init];
+        oneVC.title = [NSString stringWithFormat:@"%@",ary[i]];
+        [array addObject:oneVC];
+    }
+    
+    YSLContainerViewController *cvc = [[YSLContainerViewController alloc]initWithControllers:array topBarHeight:20 parentViewController:self];
+    cvc.delegate = self;
+    cvc.menuItemTitleColor = [UIColor blackColor];
+    cvc.menuItemSelectedTitleColor = [UIColor whiteColor];
+    cvc.menuIndicatorColor = [UIColor redColor];
+    cvc.menuBackGroudColor = [UIColor colorWithRed:1.00 green:0.91 blue:0.73 alpha:1.00];
+    [self.view addSubview:cvc.view];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- ( void )containerViewItemIndex:(NSInteger)index currentController:(OneViewController *)controller
+{
+    [controller setPage:(int)index+1];
 }
 
 @end

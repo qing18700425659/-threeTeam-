@@ -1,0 +1,32 @@
+//
+//  News.pch
+//  JiaXingNews
+//
+//  Created by DC20160426 on 16/6/6.
+//  Copyright © 2016年 DC20160426. All rights reserved.
+//
+
+#ifndef News_pch
+#define News_pch
+
+#import "NewTableViewCell.h"
+#import "AFNetworking.h"
+#import <CoreData/CoreData.h>
+#import <UIKit/UIKit.h>
+#import "AppDelegate.h"
+#import "UIKit+AFNetworking.h"
+#import "SDCycleScrollView.h"
+#import "MJRefresh.h"
+#define HTTP_IMAGE @"http://jxwm.gkmm.net:8989/news/newsCategory/getBanner.do"
+#define HTTP_NEWS @"http://jxwm.gkmm.net:8989/news/news/getNewsByCategoryId.do"
+#define HTTP_HEAD @"/newsCategory/getNewsCategory.do"
+#import "MJExtension.h"
+#import "MBProgressHUD.h"
+#import "SegmentTapView.h"
+#import "FlipTableView.h"
+#import "YSLContainerViewController.h"
+#import "YSLScrollMenuView.h"
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* News_pch */
