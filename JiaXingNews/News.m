@@ -38,20 +38,27 @@
           success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
               //判断结果是否请求成功
               if ([responseObject[@"result"] isEqualToNumber:@0]) {
-                  
+                  //发送通知（值）
                   [[NSNotificationCenter defaultCenter]postNotificationName:@"temp" object: [News mj_objectArrayWithKeyValuesArray :responseObject[@"data"]]];
+                  self.arraynum=responseObject[@"data"];
+
                   
               }else{
                   
-                  NSLog(@"请求错误：%@",responseObject[@"message"]);
+                 
                   
               }
 
           } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
               
-              NSLog(@"出错了:%@",error);
+              
               
           }];
 }
+//2、回调方法
+
+    
+
+
 
 @end

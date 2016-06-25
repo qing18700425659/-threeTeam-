@@ -20,6 +20,15 @@
 #define HTTP_IMAGE @"http://jxwm.gkmm.net:8989/news/newsCategory/getBanner.do"
 #define HTTP_NEWS @"http://jxwm.gkmm.net:8989/news/news/getNewsByCategoryId.do"
 #define HTTP_HEAD @"/newsCategory/getNewsCategory.do"
+//获取公益广告
+#define http_guanggao @"http://jxwm.gkmm.net:8989/news/pasa/getPsas.do"
+//请求新闻的详情
+#define HTTP_getNewsDetailById @"http://jxwm.gkmm.net:8989/news/news/getNewsDetailById.do"
+
+
+
+//获取公告信息
+#define HTTP_getAnnouncement [HOST stringByAppendingFormat:@"announ/getAnnouncement.do"]
 #import "MJExtension.h"
 #import "MBProgressHUD.h"
 #import "SegmentTapView.h"
@@ -28,5 +37,7 @@
 #import "YSLScrollMenuView.h"
 // Include any system framework and library headers here that should be included in all compilation units.
 // You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
-
+#define SCREEN_BOUNDS [UIScreen mainScreen].bounds
+#define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
+#define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
 #endif /* News_pch */

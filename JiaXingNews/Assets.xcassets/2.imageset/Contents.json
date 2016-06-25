@@ -2,11 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
+      "filename" : "电话机.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "filename" : "Checkmark@2x.png",
       "scale" : "2x"
     },
     {

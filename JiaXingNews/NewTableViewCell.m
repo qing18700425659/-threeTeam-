@@ -9,9 +9,9 @@
 #import "NewTableViewCell.h"
 
 @implementation NewTableViewCell
-
-- (void)awakeFromNib {
-    // Initialization code 
+-(void)awakeFromNib{
+    self.praiseNumber=0;
+    
 }
 
 //------重写------
@@ -34,11 +34,26 @@
     return self;
 }
 
+- (IBAction)praiseNum:(id)sender {
 
-- (void)setSelected:(BOOL)selected animated:(BOOL)animated {
-    [super setSelected:selected animated:animated];
+    self.praiseNumber++;//点赞次数
+    int b=[self.laud.text intValue];
 
-    // Configure the view for the selected state
+    if (self.praiseNumber%2==1) {
+        self.laud.text=[NSString stringWithFormat:@"%i",b+1];
+
+    }else{
+        if (b<=0) {
+            self.laud.text=[NSString stringWithFormat:@"%i",b];
+
+        }else {
+            self.laud.text=[NSString stringWithFormat:@"%i",b-1];
+
+
+        }
+
+
+    }
+
 }
-
 @end

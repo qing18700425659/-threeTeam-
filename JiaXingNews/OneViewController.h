@@ -9,5 +9,6 @@
 #import "ViewController.h"
 
 @interface OneViewController : UIViewController
+@property(nonatomic,assign)long int pagen;
 - ( void )setPage:(int)page;
 @end

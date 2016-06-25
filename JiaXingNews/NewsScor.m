@@ -41,14 +41,12 @@
                   
               }else{
                   
-                  NSLog(@"请求错误：%@",responseObject[@"message"]);
                   
               }
               
-              
           } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
               
-              NSLog(@"出错了:%@",error);
+            
               
           }];
     

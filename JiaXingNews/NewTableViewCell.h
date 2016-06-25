@@ -14,4 +14,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *time;
 @property (weak, nonatomic) IBOutlet UILabel *laud;
 @property (weak, nonatomic) IBOutlet UILabel *comment;
+@property(nonatomic,assign)int praiseNumber;
+- (IBAction)praiseNum:(id)sender;
+@property (weak, nonatomic) IBOutlet UIButton *pra;
 @end

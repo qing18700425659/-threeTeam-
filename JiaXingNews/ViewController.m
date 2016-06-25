@@ -17,14 +17,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.tabBarController.tabBar.tintColor = [UIColor redColor];
     NSArray *ary = @[@"文明播报",@"道德模范",@"文明创建",@"志愿服务",@"未成年人",@"区县传真",@"主题活动",@"我们的节目"];
-//    self.view.backgroundColor=[UIColor redColor];
+
     NSMutableArray *array = [NSMutableArray array];
     for (int i=0; i<ary.count; i++) {
-        OneViewController *oneVC = [[OneViewController alloc]init];
+        OneViewController *oneVC = [self.storyboard instantiateViewControllerWithIdentifier:@"OneViewController"];
         oneVC.title = [NSString stringWithFormat:@"%@",ary[i]];
         [array addObject:oneVC];
     }
+    
     
     YSLContainerViewController *cvc = [[YSLContainerViewController alloc]initWithControllers:array topBarHeight:20 parentViewController:self];
     cvc.delegate = self;
